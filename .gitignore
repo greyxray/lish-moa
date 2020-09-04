@@ -10,6 +10,7 @@
 # Data
 *.zip
 *.csv
+results.md
 
 # *.txt
 .data/
