@@ -2,19 +2,8 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
 
-def read_data(path, ignore_col="sig_id", return_df=False):
-    df = pd.read_csv(path)
-    df.drop(columns=[ignore_col], inplace=True)
-
-    if return_df:
-        return df
-
-    if df.shape[1] == 206:
-        return df.to_numpy().astype(np.float32)
-
-    return df.to_numpy()
+from models.mlp import read_data
 
 
 def plotable(a):
