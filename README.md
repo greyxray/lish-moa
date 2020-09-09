@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/greyxray/lish-moa.svg?branch=master)](https://travis-ci.com/greyxray/lish-moa)
 
 #### Download data
 
