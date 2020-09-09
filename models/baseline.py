@@ -9,7 +9,7 @@ from sklearn.base import clone, BaseEstimator, ClassifierMixin
 from sklearn.metrics import log_loss
 from sklearn.model_selection import KFold
 
-from iterstrat import MultilabelStratifiedKFold
+from iterstrat.ml_stratifiers import MultilabelStratifiedKFold
 
 
 class ConstantClassifier(BaseEstimator, ClassifierMixin):

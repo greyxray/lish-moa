@@ -5,3 +5,7 @@ pandas
 sklearn
 pytest
 kaggle
+torch
+skorch
+category_encoders
+iterative-stratification
