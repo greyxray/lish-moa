@@ -9,4 +9,4 @@ install:
   - make *.csv
 
 script:
-  - pytest
+  - pytest -v -r s -s
